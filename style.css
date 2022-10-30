@@ -1,0 +1,209 @@
+@import.url('https: //fonts.googleapis.com/css?family=Roboto: 700&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	scroll-behavior: smooth;
+
+
+
+}
+
+
+.wrapper{
+background: url(hd.jpg) no-repeat;
+background-size: cover;
+height: 100vh;	
+background-position: center;
+}
+.navbar{
+	height: 100px;
+	width: 100%;
+	background: #475763;
+
+}
+.logo{
+	width: 180px;
+	height: auto;
+	padding: 20px 100px;
+}
+ul{
+	float: right;
+	margin-right: 10px;
+
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding: 6px 13px;
+	font-family: 'Roboto',sans-serif;
+	transition: 0.1s;
+}
+
+/*.navbar ul li a.active,*/
+.navbar ul li a:hover{
+	background: blue;
+	border-radius: 10px;
+
+
+}
+.wrapper .center{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-family: sans-serif;
+	user-select: none;
+	text-align: center;
+
+}
+ .center h1{
+	color: white;
+	font-size: 70px;
+	font-weight: bold;
+	width: 900px;
+	text-align: center;
+
+	
+}
+
+
+ .center h2{
+	color: white;
+	font-size: 70px;
+	font-weight: bold;
+	width: 855px;
+	margin-top: 10px;
+	text-align: center;
+}
+.center .buttons{
+	margin: 35px 280px;
+
+}
+.buttons button{
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #ffb3b3;
+	background: red;
+	border: 1px solid red;
+	outline: none;
+	cursor: pointer ;
+	border-radius: 25px;
+	transition: .5s;
+
+
+}
+.buttons .btn{
+	margin-left: 25px;
+
+}
+.buttons button:hover{
+	background: #cc0000;
+}
+.navbar p{
+	float: left;
+	color: #70f3ff;
+	font-size: 50px;
+	font-weight: bold;
+	margin-left: 5px;
+	border: 2px solid red;
+	margin-top: 0px;
+
+}
+.k {
+	background-color: black;
+}
+.k h3{
+	color: white;
+}
+ #SHIVAM h3,p{
+	text-align: center;
+	font-weight: 4px;
+	color: white;
+	margin-top: 100px;
+	
+
+}
+.ab{
+	background-color: #b942f5;
+}
+.ab #SHIVAM h3{
+	color: white;
+	font-size: 50px;
+}
+.ab #SHIVAM P{
+	margin: 30px;
+	font-size: 30px;
+}
+
+.centerdiv{
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	background-color: #42f5e9;
+
+}
+.centerdiv a{
+	height: 100px;
+	width: 100px;
+	background-color: #42f5e9;
+	border-radius: 50px;
+	text-align: center;
+	margin: 10px;
+	line-height: 100px;
+	box-shadow: 1px 4px 2px 2px #dcdde1;
+
+}
+a i{
+	transition: all 0.3s linear;
+
+}
+a:hover i{
+	transform: scale(1.4);
+}
+.fa-instagram{
+	color: #e84393;
+}
+.k #sh h3{
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+}
+.k #sh p{
+	color: blue;
+	font-size: 30px;
+}
+
+.hi{
+    padding left: 5px
+}
+#Skill {
+	margin-top: 0px;
+	text-align: center;
+	font-size: 50px;
+	background-color: blue;
+	
+}
+ .About-Name {
+	text-align: center;
+	color: red;
+	padding-top: 10px;
+
+}
+.Subtitle {
+	color: pink;
+	text-shadow: 3px 3px;
+}
+#skill h2{
+	text-shadow: 2px 2px;
+	color: black;
+}
